@@ -8,6 +8,7 @@ export const pageLinks = [
   { id: 2, href: "#about", text: "about" },
   { id: 3, href: "#services", text: "services" },
   { id: 4, href: "#tours", text: "tours" },
+  { id: 5, href: "#tours", text: "tours" },
 ];
 
 export const socialLinks = [
@@ -80,5 +81,26 @@ export const tours = [
     location: "kenya",
     duration: 20,
     from: 3300,
+  },
+
+  {
+    id: 5,
+    image: tour2,
+    date: "october 1th, 2020",
+    title: "best of java",
+    info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
+    location: "indonesia",
+    duration: 11,
+    from: 1400,
+  },
+  {
+    id: 6,
+    image: tour2,
+    date: "october 1th, 2020",
+    title: "best of java",
+    info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
+    location: "indonesia",
+    duration: 11,
+    from: 1400,
   },
 ];
